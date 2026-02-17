@@ -63,7 +63,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="secondButton:" destination="yHp-aw-ha6" eventType="touchUpInside" id="b7A-Tt-X01"/>
                                     <action selector="secondButtonPressed:" destination="yHp-aw-ha6" eventType="touchUpInside" id="9Zt-xE-Kh9"/>
                                 </connections>
                             </button>
@@ -72,10 +71,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="check:" destination="yHp-aw-ha6" eventType="touchUpInside" id="NLc-73-bwU"/>
-                                    <action selector="firstButton:" destination="yHp-aw-ha6" eventType="touchUpInside" id="d5o-aB-iFh"/>
                                     <action selector="firstButtonPressed:" destination="yHp-aw-ha6" eventType="touchUpInside" id="PP9-l8-YHC"/>
-                                    <action selector="secondButton:" destination="yHp-aw-ha6" eventType="touchUpInside" id="ann-rK-MSX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZZ-oZ-tN7">
